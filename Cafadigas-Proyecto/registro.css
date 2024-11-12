@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background: #006187;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #190A05, #006187);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #190A05, #006187); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family:  "DM Serif Text", serif;
+height: 650px;
+padding-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 85px;
+}
+header{
+    position: relative;
+    margin-right: 50px;
+    padding: 0 2rem;
+    color: #020202;
+    background-color: #ffffff;
+    border-radius: 40px;
+}
+
+
+#denuncias{
+    background: rgb(46, 166, 182);
+    height: 650px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    background-color: #fff9f9f8;
+    padding: 40px 30px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    
+}
+.formulario{
+    width: 100%;
+    margin: auto;
+    
+}
+
+.row{
+    margin: 45px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+input{
+    font-size: 15px;
+
+    
+}
+select{
+    font-size: 15px;
+    width: 200px;
+    height: 25px;
+   
+}
+#typeDate{
+    font-size: 15px;
+    width: 195px;
+    height: 21px;
+   
+}
+
+label{
+    font-size: 20px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    background: #006187;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #190A05, #006187);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #190A05, #006187); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 3px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #d8d2d2;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+#boton{
+    
+    font-family: 'Roboto', sans-serif;
+    background: rgb(46, 166, 182);
+    border-radius: 3px;
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    color: #ffffff;
+    height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: none;
+
+}
+/*MEDIA QUERIES */
+@media (max-width: 740px){
+    body{
+        background: none;
+       
+    }
+    .formulario{
+        width: 300px;
+        margin: 0px;
+    }
+    input{
+        width: 100px;
+    }
+    select{
+        width: 108px;
+        font-size: 10px;
+    }
+    #typeDate{
+        width: 103px;
+        font-size: 10px;
+    }
+    label{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    #typeCheckbox{
+        width: 15px;
+
+    }
+
+    
+
+    
+}
+
+/* PAGINA DE CONFIRMACION */
+#confir{
+    background-color: #fff;
+    padding: 40px 40px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    
+ }

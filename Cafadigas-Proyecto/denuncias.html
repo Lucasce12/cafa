@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafadigas Denuncias</title>
+    <link rel="stylesheet" href="registro.css" />
+    <link rel="shortcut icon" href="favicon.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body  id="denuncias">
+    <header>
+        <div class="navbar">
+             <div class="logo"><img src="img/logo.png" alt="logo" ></div>
+    
+     </header>
+
+    <form action="https://formsubmit.co/denuncias.cafadigas@gmail.com" method="POST" >
+        <div class="formulario">
+            <h1>Denuncias de Clandestinos e Irregularidades</h1>
+            <div class="row">
+                <div class="column">
+                    <label for="typeText">Nombre/Distribuidor</label>
+                    <input type="text" id="typeText" name="Nombre/Distribuidor"/>
+                </div>
+                <div class="column">
+                    <label for="typeNumber">DNI/CUIT</label>
+                    <input type="number" id="typeDni" name="DNI/CUIT" />
+                </div>
+            
+                <div class="column">
+                    <label for="typeNumber">Numero de Telefono</label>
+                    <input type="number" id="typeNumber" name="Numero de Telefono" />
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <label for="typeText">Nombre del Lugar</label>
+                    <input type="text" id="typeText" name="Nombre del Lugar"/>
+                </div>
+                <div class="column">
+                    <label>Provincia</label>
+                    <select>
+                        <option value="" select disabled></option>
+                        <option>Buenos Aires</option>
+                        <option>Catamarca</option>
+                        <option>Chaco</option>
+                        <option>Chubut</option>
+                        <option>Córdoba</option>
+                        <option>Corrientes</option>
+                        <option>Entre Ríos</option>
+                        <option>Formosa</option>
+                        <option>Jujuy</option>
+                        <option>La Pampa</option>
+                        <option>La Rioja</option>
+                        <option>Mendoza</option>
+                        <option>Misiones</option> 
+                        <option>Neuquén</option>
+                        <option>Río Negro</option>
+                        <option>Salta</option>
+                        <option>San Juan</option>
+                        <option>San Luis</option>
+                        <option>Santa Cruz</option>
+                        <option>Santa Fe</option>
+                        <option>Santiago del Estero</option>
+                        <option>Tierra del Fuego</option>
+                        <option>Tucumán</option>
+                    </select>
+                </div>
+                <div class="column">
+                    <label for="typeText">Localidad</label>
+                    <input type="text" id="typeText" name="Localidad" />
+                </div>
+                <div class="column">
+                    <label for="typeText">Dirección</label>
+                    <input type="text" id="typeText" name="Dirrecion"/>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="column">
+                    <label for="typeText">Proveedor</label>
+                    <input type="text" id="typeText" name="Proveedor" />
+                </div>
+                <div class="column">
+                    <label for="typeText">Almacenaje Estimado</label>
+                    <input type="text" id="typeText" name="Almacenaje" />
+                </div>
+                <div class="column">
+                    <label for="file">Imagen</label>
+                    <input type="file" id="file" name="file" multiple />
+                </div>
+            </div>
+            <div class="row">
+                <label for="typeTextArea">Comentarios Adicionales:</label>
+                <textarea name="comentario" rows="15" cols="80">Comentarios Adicionales....</textarea>
+            </div>
+        </div>
+            <div class="row">
+                <label for="typeCheckbox" >Confirma que la Informacion enviada es correcta </label>
+                <input type="checkbox" id="typeCheckbox" />
+            </div>
+        </div>
+        <input type="submit" value="Enviar" id="boton">
+    </form>
+</body>
+
+</html>
